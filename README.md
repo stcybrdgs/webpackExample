@@ -21,8 +21,6 @@ npm install
 
 ```json
 {
-  // package.json
-
   "scripts": {
     "start": "webpack serve --config webpack.config.js",
     "build": "webpack build --config webpack.config.js",
