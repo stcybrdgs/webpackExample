@@ -9,7 +9,7 @@ cd myProject
 git init
 touch .gitignore
 npm init -y
-npm install @tiptap/core @tiptap/pm @tiptap/starter-kit\n
+npm install @tiptap/core @tiptap/pm @tiptap/starter-kit
 npm i chart.js
 npm install --save-dev webpack
 npm install --save-dev webpack-cli
@@ -21,14 +21,13 @@ npm install
 
 ```json
 {
-    // package.json
-    ...
+  // package.json
+
   "scripts": {
     "start": "webpack serve --config webpack.config.js",
     "build": "webpack build --config webpack.config.js",
     "build:watch": "webpack build --watch --config webpack.config.js"
   }
-  ...
 }
 ```
 
